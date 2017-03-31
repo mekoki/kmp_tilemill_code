@@ -1,0 +1,103 @@
+{
+  "bounds": [
+    -180,
+    -85.05112877980659,
+    180,
+    85.05112877980659
+  ],
+  "center": [
+    0,
+    0,
+    2
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape",
+        "id": "countries",
+        "project": "nyeri",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over"
+      },
+      "extent": [
+        -179.99978348919961,
+        -85.051,
+        180,
+        83.63381093402975
+      ]
+    },
+    {
+      "geometry": "raster",
+      "extent": [
+        36.985630125989154,
+        -0.5029396455988615,
+        37.250954874614095,
+        -0.252369655739921
+      ],
+      "id": "tifrightredared",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\Real Plan Consutants\\Nyeri\\reproj\\tifrightredared.tif"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "tifrightredared"
+    },
+    {
+      "geometry": "raster",
+      "extent": [
+        36.75081933279198,
+        -0.5028703342605029,
+        37.00940156690638,
+        -0.2523339216580678
+      ],
+      "id": "tifrightrendered",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\Real Plan Consutants\\Nyeri\\reproj\\tifrightrendered.tif"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "tifrightrendered"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        36.87506160790365,
+        -0.48717265953410166,
+        37.067149075331315,
+        -0.29543353234040526
+      ],
+      "id": "detailedlanduse",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\Real Plan Consutants\\Nyeri\\reproj\\Detailed_Land_Use.shp",
+        "id": "detailedlanduse",
+        "project": "nyeri",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "detailedlanduse"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "",
+  "description": ""
+}
