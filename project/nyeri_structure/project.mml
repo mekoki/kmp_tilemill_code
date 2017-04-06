@@ -1,0 +1,291 @@
+{
+  "bounds": [
+    -180,
+    -85.05112877980659,
+    180,
+    85.05112877980659
+  ],
+  "center": [
+    0,
+    0,
+    2
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      }
+    },
+    {
+      "geometry": "raster",
+      "extent": [
+        36.985630125989154,
+        -0.5029396455988615,
+        37.250954874614095,
+        -0.252369655739921
+      ],
+      "id": "tifrightredared",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\Real Plan Consutants\\Nyeri\\reproj\\tifrightredared.tif"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "tifrightredared"
+    },
+    {
+      "geometry": "raster",
+      "extent": [
+        36.75081933279198,
+        -0.5028703342605029,
+        37.00940156690638,
+        -0.2523339216580678
+      ],
+      "id": "tifrightrendered",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\Real Plan Consutants\\Nyeri\\reproj\\tifrightrendered.tif"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "tifrightrendered"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        36.875567286807176,
+        -0.4868795234859253,
+        37.067713652549436,
+        -0.29543353234037983
+      ],
+      "id": "structureplanlanduse",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\Real Plan Consutants\\Nyeri\\Structural Reprojected\\STRUCTURE_PLAN_LANDUSE.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "structureplanlanduse"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        36.875567286807176,
+        -0.4868795234859253,
+        37.06771365254942,
+        -0.29543353234043074
+      ],
+      "id": "planningboundary",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\Real Plan Consutants\\Nyeri\\Structural Reprojected\\Planning Boundary.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "planningboundary",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        36.872639264461576,
+        -0.49030455180019594,
+        37.055385931704315,
+        -0.2883824966007233
+      ],
+      "id": "rivers",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\Real Plan Consutants\\Nyeri\\Structural Reprojected\\Rivers.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "rivers"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        36.99846346492176,
+        -0.4087984701788849,
+        37.03540078288951,
+        -0.30051677833995893
+      ],
+      "id": "railway",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\Real Plan Consutants\\Nyeri\\Structural Reprojected\\Railway.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "railway"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        36.90637834082035,
+        -0.4649470617975828,
+        37.044312906336565,
+        -0.3595035537640827
+      ],
+      "id": "urbannodes",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\Real Plan Consutants\\Nyeri\\Structural Reprojected\\Urban nodes.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "urbannodes"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        36.75047199855599,
+        -0.5027411710268148,
+        37.250601329976504,
+        -0.25238060232857895
+      ],
+      "id": "propertyboundary",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\Real Plan Consutants\\Nyeri\\Structural Reprojected\\Property Boundary.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "propertyboundary",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        36.90652674344446,
+        -0.4627672640324711,
+        37.05030126002878,
+        -0.3021538537341142
+      ],
+      "id": "principalroad",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\Real Plan Consutants\\Nyeri\\Structural Reprojected\\Principal road.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "principalroad"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        36.94737489976897,
+        -0.4595398958623904,
+        37.02423030427029,
+        -0.399670939899829
+      ],
+      "id": "linkroads",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\Real Plan Consutants\\Nyeri\\Structural Reprojected\\Link Roads.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "linkroads"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        36.90830641465141,
+        -0.46274115696017815,
+        37.01470228317093,
+        -0.3600613817618792
+      ],
+      "id": "bypass",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\Real Plan Consutants\\Nyeri\\Structural Reprojected\\Bypass.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "bypass"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        36.664102065241984,
+        -0.637177091845062,
+        37.20070488280993,
+        -0.10442314654330835
+      ],
+      "id": "primaryroads",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\Real Plan Consutants\\Nyeri\\Structural Reprojected\\Primary Roads.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "primaryroads"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        36.91451842452976,
+        -0.4581030683451988,
+        37.04646508176372,
+        -0.3097325958126366
+      ],
+      "id": "roaddirection",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\Real Plan Consutants\\Nyeri\\Structural Reprojected\\Road_Direction.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "roaddirection"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -0.000008983152841195214,
+        -0.000008983152840993819,
+        0,
+        0
+      ],
+      "id": "krbroadscurrentclass",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\Real Plan Consutants\\Nyeri\\Structural Reprojected\\KRB_ROADS_CURRENT_CLASSIFICA1_Pnt.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "krbroadscurrentclass"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "nyeri_structure_plan",
+  "description": ""
+}
