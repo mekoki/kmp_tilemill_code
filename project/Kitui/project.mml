@@ -1,0 +1,643 @@
+{
+  "bounds": [
+    37.8662,
+    -1.5518,
+    38.1148,
+    -1.2278
+  ],
+  "center": [
+    38.0042,
+    -1.3679,
+    11
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 11,
+  "maxzoom": 18,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "raster",
+      "extent": [
+        37.98191336043909,
+        -1.6134673439883709,
+        38.34302593233625,
+        -1.2050691304278178
+      ],
+      "id": "1513kitui",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\images\\151_3_kitui.tif"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=utm +zone=37 +south +ellps=clrk80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "advanced": {},
+      "name": "1513kitui"
+    },
+    {
+      "geometry": "raster",
+      "extent": [
+        37.99949292117955,
+        -1.7498180407580688,
+        38.250031433157964,
+        -1.4993691694800615
+      ],
+      "id": "1641clip",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\images\\164_1_clip.tif"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs",
+      "advanced": {},
+      "name": "1641clip"
+    },
+    {
+      "geometry": "raster",
+      "extent": [
+        37.74984835646766,
+        -1.2501691796024677,
+        38.000344413378286,
+        -0.9998191539976214
+      ],
+      "id": "1502clip",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\images\\150_2_clip.tif"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "1502clip"
+    },
+    {
+      "geometry": "raster",
+      "extent": [
+        37.74977608611819,
+        -1.5001784080008802,
+        38.00017648663106,
+        -1.249508598777458
+      ],
+      "id": "1504clip",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\images\\150_4_clip.tif"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs",
+      "advanced": {},
+      "name": "1504clip"
+    },
+    {
+      "geometry": "raster",
+      "extent": [
+        37.99985123347948,
+        -1.250172332322563,
+        38.250047350571464,
+        -0.9998190604346082
+      ],
+      "id": "1511migwaniclip",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\images\\151_1migwani_clip.tif"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs",
+      "advanced": {},
+      "name": "1511migwaniclip"
+    },
+    {
+      "geometry": "raster",
+      "extent": [
+        37.74988100017293,
+        -1.7500647347394578,
+        38.000392624854314,
+        -1.4995268488439182
+      ],
+      "id": "1632clip",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\images\\163_2_clip.tif"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs",
+      "advanced": {},
+      "name": "1632clip"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        37.868746645574724,
+        -1.5474399832791979,
+        38.11163301767199,
+        -1.2326567155476615
+      ],
+      "id": "agricultural",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Existing\\Agricultural.shp",
+        "id": "agricultural",
+        "project": "Kitui",
+        "srs": ""
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "agricultural"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        37.86835290793089,
+        -1.5474606944718374,
+        38.1125633879645,
+        -1.2311221935691647
+      ],
+      "id": "undevelopedagricultu",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Existing\\Undeveloped Agriculture.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "undevelopedagricultu"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        37.870140999138705,
+        -1.541765170195578,
+        38.10985981553717,
+        -1.234176554551869
+      ],
+      "id": "existingresidential",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Existing\\Existing_Residential.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "existingresidential"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        37.86841852492644,
+        -1.5475360911616132,
+        38.10680569273082,
+        -1.2314235493124064
+      ],
+      "id": "reparianreserve",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Existing\\Reparian Reserve.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "reparianreserve"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        37.98208959430144,
+        -1.4265016321461528,
+        38.056792647775644,
+        -1.3321729211813496
+      ],
+      "id": "existingrecreational",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Existing\\Existing_Recreational.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "existingrecreational"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        37.89855868352741,
+        -1.5085952960129767,
+        38.07999981587288,
+        -1.2632489738739903
+      ],
+      "id": "existingpublicutilit",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Existing\\Existing_publicUtility.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "existingpublicutilit"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        37.90569543780929,
+        -1.4963459491255395,
+        38.06580596611081,
+        -1.2852699127767182
+      ],
+      "id": "existingpublicpurpos",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Existing\\Existing_publicPurpose.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "existingpublicpurpos"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        37.8683529079309,
+        -1.5475422621014516,
+        38.1128182901882,
+        -1.231122193569152
+      ],
+      "id": "planningboundary",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Existing\\Planning Boundary.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "planningboundary"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        37.97307630549623,
+        -1.382135018059543,
+        38.02103434492336,
+        -1.3217949135968787
+      ],
+      "id": "existingindustrial",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Existing\\Existing_Industrial.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "existingindustrial"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        37.88226581821609,
+        -1.5200385728583214,
+        38.0882922945669,
+        -1.2376166008783418
+      ],
+      "id": "existingeducational",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Existing\\Existing_Educational.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "existingeducational"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        38.045874104094395,
+        -1.342400685761944,
+        38.05974652793696,
+        -1.3191814948839145
+      ],
+      "id": "conservation",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Existing\\Conservation.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "conservation"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        37.90690890829598,
+        -1.4959205042390022,
+        38.08759289394366,
+        -1.2417447776473367
+      ],
+      "id": "existingcommercial",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Existing\\Existing_Commercial.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "existingcommercial"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        37.86915645010325,
+        -1.5346580710406557,
+        38.10365759361636,
+        -1.2331330497688833
+      ],
+      "id": "existingtransportati",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Existing\\Existing_Transportation.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "existingtransportati"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        37.97911807169369,
+        -1.3754842978946407,
+        37.995698995421336,
+        -1.3399118311664135
+      ],
+      "id": "futureuse",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Proporsed\\Future Use.shp",
+        "id": "futureuse",
+        "project": "Kitui",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "futureuse"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        37.93383540771999,
+        -1.5018455954596701,
+        38.07311145649192,
+        -1.2476237599341555
+      ],
+      "id": "proposedresidential",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Proporsed\\PRoposed_Residential.shp",
+        "id": "proposedresidential",
+        "project": "Kitui",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "proposedresidential"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        37.93793480057096,
+        -1.5032247045694838,
+        38.071957857050684,
+        -1.248582331158605
+      ],
+      "id": "proposedrecreational",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Proporsed\\Proposed_Recreational.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "proposedrecreational"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        37.93678962508457,
+        -1.5041455414588747,
+        38.06145482045021,
+        -1.250486600680803
+      ],
+      "id": "proposedindustrial",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Proporsed\\Proposed_Industrial.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "proposedindustrial"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        37.880586116072394,
+        -1.5013630508799602,
+        38.07328522003093,
+        -1.2493197644847291
+      ],
+      "id": "proposededucational",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Proporsed\\Proposed_Educational.shp",
+        "id": "proposededucational",
+        "project": "Kitui",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "proposededucational"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        37.93649290892671,
+        -1.4975343925522933,
+        38.071416357477425,
+        -1.243034641430171
+      ],
+      "id": "proposedcommercial",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Proporsed\\Proposed_Commercial.shp",
+        "id": "proposedcommercial",
+        "project": "Kitui",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "proposedcommercial"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        37.904949760325955,
+        -1.497941946295317,
+        38.07169691579948,
+        -1.244558464568706
+      ],
+      "id": "proposedpublicpurpos",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Proporsed\\Proposed_PublicPurposes.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "proposedpublicpurpos"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        37.93592570092346,
+        -1.4642398769231268,
+        38.06677254654482,
+        -1.2483953103964769
+      ],
+      "id": "proposedpublicutilit",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Proporsed\\Proposed_PublicUtility.shp",
+        "id": "proposedpublicutilit",
+        "project": "Kitui",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "proposedpublicutilit"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        37.86904052611326,
+        -1.5292921080786763,
+        38.09632160773845,
+        -1.2362187683135861
+      ],
+      "id": "proposedtransportati",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Proporsed\\Proposed_Transportation.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "proposedtransportati"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        37.86923208032713,
+        -1.5291553829049922,
+        38.09622552176635,
+        -1.2362991658436968
+      ],
+      "id": "proposedmajorroads",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Proporsed\\Proposed Major Roads.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "proposedmajorroads"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        37.93867053216938,
+        -1.4822809113209536,
+        38.052542413393866,
+        -1.3086196815835731
+      ],
+      "id": "proposedouterbypass",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Proporsed\\Proposed Outer Bypass.shp",
+        "id": "proposedouterbypass",
+        "project": "Kitui",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "proposedouterbypass"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        37.978848113757174,
+        -1.4011774439147873,
+        38.034299615822476,
+        -1.3358875570838868
+      ],
+      "id": "proposedkituibypass",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Proporsed\\Proposed Kitui Bypass.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "proposedkituibypass"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        37.99446090168552,
+        -1.3890140022525295,
+        38.02480100240531,
+        -1.3491271648467889
+      ],
+      "id": "proposedinnerbypass",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Proporsed\\Proposed Inner Bypass.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "proposedinnerbypass"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        37.914119747039955,
+        -1.4967818890258866,
+        38.040829162563,
+        -1.2489816070357709
+      ],
+      "id": "proposedrailwayline",
+      "class": "",
+      "Datasource": {
+        "file": "D:\\work\\KMP_PROJECT\\KMP_DATA\\Kitui mapping products\\Disk 1 (Action area plan,Area and Place name,Landuse and Thematic maps)\\Proposals\\Land Use\\Reprojected\\Proporsed\\Proposed_railway_line.shp"
+      },
+      "srs-name": "custom",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+      "advanced": {},
+      "name": "proposedrailwayline"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "kitui_1233444",
+  "description": "",
+  "attribution": ""
+}
