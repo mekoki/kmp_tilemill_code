@@ -42,55 +42,61 @@ Map {
 
 #agricultural {
   ::shape{ 
+  line-color:#594;
+  line-width:0.4;
   polygon-pattern-file: url(../images/existing_agriculture.png);
   }
   ::label{
     [zoom>15][Code1 != ""] {text-name: [Code]+"["+[Code1]+"]";
-    text-face-name: 'Arial Regular'}
+    text-face-name: 'Arial Regular';
+    text-size: 18;}
   }  
   
 }
 
 #undevelopedagricultu {
-  ::shape{ 
+  ::shape{
+  line-color:#594;
+  line-width:0.4;
   polygon-pattern-file: url(../images/undeveloped_agriculture.png);
   }
   ::label{
     [zoom>15][Code1 != ""][Code!=""] {text-name: [Code]+"["+[Code1]+"]";
-    text-face-name: 'Arial Bold'}
+    text-face-name: 'Arial Bold';
+    text-size: 18;}
   } 
 }
 
 #existingresidential {
   line-color:#594;
-  line-width:0.5;
+  line-width:0.4;
   polygon-opacity:1;
   polygon-fill:#734c00;
 }
 
 #reparianreserve {
   line-color:#594;
-  line-width:0.5;
+  line-width:0.4;
  polygon-pattern-file: url(../images/riparian_reserve.png)
 }
 
 #existingrecreational {
   line-color:#594;
-  line-width:0.5;
+  line-width:0.4;
   polygon-opacity:1;
   polygon-fill:#89cd66;
 }
 
 #existingpublicutilit {
   line-color:#594;
-  line-width:0.5;
+  line-width:0.4;
   polygon-opacity:1;
   polygon-fill:#005ce6;
 }
 
 #existingpublicpurpos {
   line-color:#594;
-  line-width:0.5;
+  line-width:0.4;
   polygon-opacity:1;
   polygon-fill:#ffff73;
 }
@@ -107,42 +113,42 @@ Map {
 
 #existingindustrial {
   line-color:#594;
-  line-width:0.5;
+  line-width:0.4;
   polygon-opacity:1;
   polygon-fill:#a900e6;
 }
 
 #existingeducational {
   line-color:#594;
-  line-width:0.5;
+  line-width:0.4;
   polygon-opacity:1;
   polygon-fill:#e69800;
 }
 
 #conservation {
   line-color:#594;
-  line-width:0.5;
+  line-width:0;
   polygon-opacity:1;
   polygon-pattern-file: url(../images/existing_conservation.png);
 }
 
 #existingcommercial {
   line-color:#594;
-  line-width:0.5;
+  line-width:0.4;
   polygon-opacity:1;
   polygon-fill:#e60000;
 }
 
 #existingtransportati {
   line-color:#594;
-  line-width:0.5;
+  line-width:0.4;
   polygon-opacity:1;
   polygon-fill:#000000;
 }
 
 #futureuse {
   line-color:#594;
-  line-width:0.5;
+  line-width:0.4;
   polygon-opacity:1;
   polygon-pattern-file:url(../images/future_use.png); 
 }
@@ -150,52 +156,56 @@ Map {
 #proposedresidential {
   ::shape{ 
   line-color:#594;
-  line-width:0.5;
+  line-width:0.4;
   polygon-opacity:1;
   polygon-fill:#895a44;
   }
   ::label{
     [Code1 != ""][Code!=""][zoom>15] {text-name: [Code]+"["+[Code1]+"]";
-    text-face-name: 'Arial Regular'}
+    text-face-name: 'Arial Regular';
+    text-size: 18;}
   }  
 }
 
 #proposedrecreational {
   ::shape{ 
   line-color:#594;
-  line-width:0.5;
+  line-width:0.4;
   polygon-opacity:1;
   polygon-fill:#a3ff73;
   }
   ::label{
     [Code1 != ""][Code4 != ""][zoom>15] {text-name: [Code1]+"["+[Code4]+"]";
-    text-face-name: 'Arial Regular'}
+    text-face-name: 'Arial Regular';
+    text-size: 18;}
   } 
 }
 
 #proposedindustrial {
   ::shape{ 
   line-color:#594;
-  line-width:0.5;
+  line-width:0.4;
   polygon-opacity:1;
   polygon-fill:#c500ff;
   }
   ::label{
     [Code1 != ""][Code1!=""][zoom>15] {text-name: [Code]+"["+[Code1]+"]";
-    text-face-name: 'Arial Bold'}
+    text-face-name: 'Arial Bold';
+    text-size: 18;}
   }   
 
 }
 #proposededucational {
   ::shape{ 
   line-color:#594;
-  line-width:0.5;
+  line-width:0.4;
   polygon-opacity:1;
   polygon-fill:#e69800;
   }
   ::label{
     [Code1 != ""][Code2 != ""][zoom>15] {text-name: [Code1]+"["+[Code2]+"]";
-    text-face-name: 'Arial Bold'}
+    text-face-name: 'Arial Bold';
+    text-size: 18;}
   }   
 
 }
@@ -203,26 +213,28 @@ Map {
 #proposedcommercial {
   ::shape{ 
   line-color:#594;
-  line-width:0.5;
+  line-width:0.4;
   polygon-opacity:1;
   polygon-fill:#ff0000;
   }
   ::label{
     [Code != ""][Code1 != ""][zoom>15] {text-name: [Code]+"["+[Code1]+"]";
-    text-face-name: 'Arial Bold'}
+    text-face-name: 'Arial Bold';
+    text-size: 18;}
   } 
 }
 
 #proposedpublicpurpos {
   ::shape{ 
   line-color:#594;
-  line-width:0.5;
+  line-width:0.4;
   polygon-opacity:1;
   polygon-fill:#ffff73;
   }
   ::label{
     [Code != ""][Code1 != ""][zoom>15] {text-name: [Code]+"["+[Code1]+"]";
     text-face-name: 'Arial Bold';
+      text-size: 18;
     }
   }  
 }
@@ -230,19 +242,20 @@ Map {
 #proposedpublicutilit {
   ::shape{ 
   line-color:#594;
-  line-width:0.5;
+  line-width:0.4;
   polygon-opacity:1;
   polygon-fill:#005ce6;
   }
   ::label{
     [Code != ""][Code1 != ""] [zoom>15]{text-name: [Code]+"["+[Code1]+"]";
-    text-face-name: 'Arial Bold'}
+    text-face-name: 'Arial Bold';
+    text-size: 18;}
   }
 }
 
 #proposedtransportati {
   line-color:#594;
-  line-width:0.5;
+  line-width:0.4;
   polygon-opacity:1;
   polygon-fill:#4e4e4e;
 }
